@@ -118,7 +118,7 @@ public class Main {
                 System.out.println(monthNumber + "-й месяц (декабрь) принадлежит к сезону ЗИМА");
                 break;
             default:
-                break;
+                System.out.println("Неверное значение!");
         }
     }
 }
