@@ -4,8 +4,7 @@ public class Main {
         task2();
         task3();
         task4();
-
-
+        task5();
     }
 
     public static void task1() {
@@ -74,6 +73,52 @@ public class Main {
             System.out.println("Потребуется дней: " + timeOfDelivery);
         } else {
             System.out.println("Доставка не осуществляется");
+        }
+    }
+    public static void task5 () {
+        System.out.println("\n" + "Задача №5" + "\n");
+
+        int monthNumber = 12;
+
+        switch (monthNumber) {
+            case 1:
+                System.out.println(monthNumber + "-й месяц (январь) принадлежит к сезону ЗИМА");
+                break;
+            case 2:
+                System.out.println(monthNumber + "-й месяц (февраль) принадлежит к сезону ЗИМА");
+                break;
+            case 3:
+                System.out.println(monthNumber + "-й месяц (март) принадлежит к сезону ВЕСНА");
+                break;
+            case 4:
+                System.out.println(monthNumber + "-й месяц (апрель) принадлежит к сезону ВЕСНА");
+                break;
+            case 5:
+                System.out.println(monthNumber + "-й месяц (май) принадлежит к сезону ВЕСНА");
+                break;
+            case 6:
+                System.out.println(monthNumber + "-й месяц (июнь) принадлежит к сезону ЛЕТО");
+                break;
+            case 7:
+                System.out.println(monthNumber + "-й месяц (июль) принадлежит к сезону ЛЕТО");
+                break;
+            case 8:
+                System.out.println(monthNumber + "-й месяц (август) принадлежит к сезону ЛЕТО");
+                break;
+            case 9:
+                System.out.println(monthNumber + "-й месяц (сентябрь) принадлежит к сезону ОСЕНЬ");
+                break;
+            case 10:
+                System.out.println(monthNumber + "-й месяц (октябрь) принадлежит к сезону ОСЕНЬ");
+                break;
+            case 11:
+                System.out.println(monthNumber + "-й месяц (ноябрь) принадлежит к сезону ОСЕНЬ");
+                break;
+            case 12:
+                System.out.println(monthNumber + "-й месяц (декабрь) принадлежит к сезону ЗИМА");
+                break;
+            default:
+                break;
         }
     }
 }
